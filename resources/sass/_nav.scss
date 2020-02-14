@@ -1,0 +1,47 @@
+.nav.position-sticky {
+  z-index: 1020;
+  top: 0;
+
+  @media (min-width: 992px) {
+    top: -40px;
+  }
+  
+  nav.navbar {
+    .logo {
+      height: 70px;
+      object-fit: center;
+    }
+
+    .nav-item .nav-link {
+      font-weight: bold;
+
+      &.active {
+        color: $myred;
+        font-size: larger;
+        font-family: "Montserrat Alternates", sans-serif;
+      }
+    }
+
+    .language-flag {
+      overflow: hidden;
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba($black, 0.5);
+    }
+
+    .navbar-collapse {
+      padding-right: 0;
+
+      @media (min-width: 992px) {
+        &.en {
+          padding-right: 11rem;
+        }
+
+        &.fr {
+          padding-right: 13rem;
+        }
+      }
+    }
+  }
+}

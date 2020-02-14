@@ -1,0 +1,47 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:100,200,300,400,500,600,700,800,900&display=swap');
+
+// Variables
+@import "variables";
+
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Colors
+@import "colors";
+
+// Fonts
+@import "fonts";
+
+// Main content
+@import "nav";
+@import "home";
+
+.red-line {
+  width: 100px;
+  height: 5px;
+  background-color: $myred !important;
+}
+
+.banner {
+  background-image: linear-gradient(rgba($black, 0.70), rgba($black, 0.70)), url("/images/NoPath - Copie (5)@2x.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-indicator {
+  width: 1rem !important;
+  height: 1rem !important;
+  border-radius: 50%;
+
+  &.active {
+    transform: scale(.6);
+  }
+}

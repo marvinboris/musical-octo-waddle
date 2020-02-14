@@ -1,0 +1,27 @@
+// Font families
+$font-families: "montserrat-alt" 'Montserrat Alternates', "montserrat" Montserrat;
+
+@each $name, $font-family in $font-families {
+    .text-#{$name} {
+        font-family: $font-family, sans-serif;
+    }
+}
+
+// Font sizes
+$font-sizes: 
+    "xx-small"  xx-small, 
+    "x-small"   x-small, 
+    "smaller"   smaller, 
+    "small"     small, 
+    "normal"    normal, 
+    "medium"    medium, 
+    "large"     large, 
+    "larger"    larger, 
+    "x-large"   x-large, 
+    "xx-large"  xx-large;
+
+@each $name, $font-size in $font-sizes {
+    .text-#{$name} {
+        font-size: $font-size !important;
+    }
+}

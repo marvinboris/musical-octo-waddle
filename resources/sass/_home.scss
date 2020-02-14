@@ -1,0 +1,44 @@
+section.home {
+    #carousel-home-banner {
+        height: calc(100vh - 81.22px);
+
+        @media (min-width: 992px) {
+            height: calc(100vh - 121.22px);
+        }
+
+        #circle-carousel-indicator {
+            width: 1.25rem;
+            height: 1.25rem;
+            border: 2px solid $myblue;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .position-absolute {
+            z-index: 1000;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .carousel-inner {
+            .carousel-item {
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+                &:nth-child(1) {
+                    background-image: linear-gradient(rgba($black, .70), rgba($black, .70)), url('/images/NoPath - Copie (5)@2x.png');
+                }
+
+                &:nth-child(2) {
+                    background-image: linear-gradient(rgba($black, .70), rgba($black, .70)), url('/images/NoPath - Copie (7)@2x.png');
+                }
+
+                &:nth-child(3) {
+                    background-image: linear-gradient(rgba($black, .70), rgba($black, .70)), url('/images/NoPath - Copie (8)@2x.png');
+                }
+            }
+        }
+    }
+}

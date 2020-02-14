@@ -1,0 +1,69 @@
+// My Colors
+$myblue:    #1E92DB;
+$myred:     #F5250A;
+$black:     #000000;
+$darkgray:  #3B3B3B;
+$mygray:    #6D6D6D;
+$white:     #FFFFFF;
+
+// Palette
+$palette: 
+    "blue"      $myblue     $white, 
+    "red"       $myred      $white, 
+    "black"     $black      $white, 
+    "darkgray"  $darkgray   $white, 
+    "gray"      $mygray     $white;
+
+// Colors
+@each $name, $color, $font-color in $palette {
+    .text-#{$name} {
+        color: $color !important;
+    }
+
+    .bg-#{$name}-20 {
+        background-color: rgba($color, .20) !important;
+    }
+
+    .bg-#{$name}-33 {
+        background-color: rgba($color, .33) !important;
+    }
+
+    .bg-#{$name}-50 {
+        background-color: rgba($color, .50) !important;
+    }
+
+    .bg-#{$name}-70 {
+        background-color: rgba($color, .70) !important;
+    }
+
+    .bg-#{$name}-80 {
+        background-color: rgba($color, .80) !important;
+    }
+
+    .bg-#{$name} {
+        background-color: $color !important;
+    }
+
+    .btn-#{$name} {
+        background-color: $color;
+        color: $font-color !important;
+
+        &:hover,
+        &:focus,
+        &.active {
+            background-color: darken($color, 5%);
+        }
+    }
+
+    .border-#{$name}-25 {
+        border-color: rgba($color, .25) !important;
+    }
+
+    .border-#{$name}-50 {
+        border-color: rgba($color, .50) !important;
+    }
+
+    .border-#{$name} {
+        border-color: $color !important;
+    }
+}

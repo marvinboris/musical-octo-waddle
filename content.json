@@ -1,0 +1,272 @@
+{
+    "en": {
+        "header": {
+            "home": "Home",
+            "about-us": "About Us",
+            "services": "Our Services",
+            "contact": "Contact"
+        },
+        "footer": {
+            "partners": {
+                "title": "Our Partners",
+                "content": [
+                    "Dahua-Logo-PNG.png",
+                    "unnamed.png",
+                    "hikvision-vector-logo.png",
+                    "logo_print.jpg",
+                    "partner-logos_Suprema.png",
+                    "KNX_logo.svg.png",
+                    "Honeywell_logo.png",
+                    "turnstar-systems-logo.png",
+                    "Siemens-invert-logo.png",
+                    "nedap-logo-vector.png",
+                    "Kentec+logo.png",
+                    "1500.jpg",
+                    "EmersonElectricLogo.svg.png"
+                ]
+            },
+            "useful-links": "Useful links",
+            "newsletter": "Subscribe to our Newsletter",
+            "contact": "Contact us"
+        },
+        "home": {
+            "banner": {
+                "text": "Project manager, we intervene at all levels of a project (study, design, implementation, monitoring and maintenance).",
+                "learn": "Learn more",
+                "services": "Our Services"
+            },
+            "projects": {
+                "title": "Our latest projets",
+                "content": [
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.47.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.48.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.49.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.50.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.52 (1).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.52.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.53.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.54.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.55.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.56.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.58.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.25.13 (1).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.25.13 (2).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.25.13 (3).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.29.39 (1).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.29.39.jpeg"
+                ]
+            }
+        },
+        "about-us": {
+            "title": "About Us",
+            "text": "<strong class='text-red'>Domotics Engineering and Services (DOMOTECS)</strong> is a Cameroonian company that exercises in the development and integration of technological solutions in the field of electrical and information engineering.",
+            "catalog": "Download our catalog of offers",
+            "missions": {
+                "title": "Missions and perspectives",
+                "text": "<p>DOMOTECS aims to establish itself as a benchmark in the field of technology this in order to make life easier by integrating technology into the daily lives of men.</p><p>Imagine a house in which you don't have to pay electricity or water bills. A house that you control remotely and that automatically triggers alarms in the event of intrusion, fire or other incidents and sends you the images in real time on your smartphone or PC by instantly calling the competent emergency services (firefighter, police, ambulance, etc.).</p>"
+            },
+            "information": {
+                "projects": "Delivered projects",
+                "clients": "Satisfied customers",
+                "partners": "Partners",
+                "awards": "Awards"
+            }
+        },
+        "services": {
+            "title": "Our Services",
+            "subtitle": "DOMOTECS has leading references and great expertise which allows us to offer proven methods in the following fields :",
+            "content": [
+                {
+                    "icon": "fas fa-home",
+                    "name": "Home automation",
+                    "details": "Home automation is the set of techniques and technologies used in buildings in order to centralize the management of the different systems of a building. Home automation aims to provide technical solutions to meet comfort needs.",
+                    "link": "home-automation",
+                    "modal": "services.en.home-automation"
+                },
+                {
+                    "icon": "fas fa-shield-alt",
+                    "name": "Electronic security",
+                    "details": "In order to ensure the safety of people and property in your businesses and homes, DOMOTECS offers solutions sized to meet your exact needs.",
+                    "link": "electronic-security",
+                    "modal": "services.en.electronic-security"
+                },
+                {
+                    "icon": "fas fa-fire",
+                    "name": "Fire protection",
+                    "details": "DOMOTECS offers Fire Safety solutions in order to reduce the risks and / or limit the damage in the event of a fire in our premises.",
+                    "link": "fire-protection",
+                    "modal": "services.en.fire-protection"
+                },
+                {
+                    "icon": "fas fa-laptop-code",
+                    "name": "Computer science",
+                    "details": "Information is today the heart of our businesses. So it becomes urgent to know how to manage your information.",
+                    "link": "computer-science",
+                    "modal": "services.en.computer-science"
+                },
+                {
+                    "icon": "fas fa-bolt",
+                    "name": "Electric installation",
+                    "details": "An electrical installation is a coherent set of electrical circuits, electrical equipment. It can be located in a building or a set of buildings for residential, industrial, commercial or office use.",
+                    "link": "electric-installation",
+                    "modal": "services.en.electric-installation"
+                },
+                {
+                    "icon": "fas fa-sun",
+                    "name": "Solar energy",
+                    "details": "DOMOTECS offers several solutions for the exploitation of solar energy.",
+                    "link": "solar-energy",
+                    "modal": "services.en.solar-energy"
+                }
+            ]
+        },
+        "contact": {
+            "coordinates": "Our coordinates",
+            "message": {
+                "title": "Leave us a message",
+                "form": {
+                    "name": "Your full name",
+                    "email": "Your email address",
+                    "object": "Object",
+                    "message": "Your message",
+                    "submit": "Submit"
+                }
+            }
+        }
+    },
+    "fr": {
+        "header": {
+            "home": "Accueil",
+            "about-us": "Qui sommes nous",
+            "services": "Nos Services",
+            "contact": "Contact"
+        },
+        "footer": {
+            "partners": {
+                "title": "Nos Partenaires",
+                "content": [
+                    "Dahua-Logo-PNG.png",
+                    "unnamed.png",
+                    "hikvision-vector-logo.png",
+                    "logo_print.jpg",
+                    "partner-logos_Suprema.png",
+                    "KNX_logo.svg.png",
+                    "Honeywell_logo.png",
+                    "turnstar-systems-logo.png",
+                    "Siemens-invert-logo.png",
+                    "nedap-logo-vector.png",
+                    "Kentec+logo.png",
+                    "1500.jpg",
+                    "EmersonElectricLogo.svg.png"
+                ]
+            },
+            "useful-links": "Liens utiles",
+            "newsletter": "Souscrire à notre Newsletter",
+            "contact": "Nous contacter"
+        },
+        "home": {
+            "banner": {
+                "text": "Maître d'oeuvre, nous intervenons à tous les niveaux d'un projet (étude, conception, réalisation, suivi et maintenance).",
+                "learn": "En savoir plus",
+                "services": "Nos Services"
+            },
+            "projects": {
+                "title": "Nos derniers projets",
+                "content": [
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.47.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.48.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.49.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.50.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.52 (1).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.52.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.53.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.54.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.55.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.56.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 15.15.58.jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.25.13 (1).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.25.13 (2).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.25.13 (3).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.29.39 (1).jpeg",
+                    "/images/portfolio/WhatsApp Image 2020-02-10 at 17.29.39.jpeg"
+                ]
+            }
+        },
+        "about-us": {
+            "title": "Qui sommes nous ?",
+            "text": "<strong class='text-red'>Domotics Engineering and Services (DOMOTECS)</strong> est une entreprise camerounaise qui exerce dans le développement et l'intégration des solutions technologiques dans le domaine de l'ingénierie électrique et de l'information.",
+            "catalog": "Télécharger notre catalogue d'offres",
+            "missions": {
+                "title": "Missions et perspectives",
+                "text": "<p>DOMOTECS vise à s'imposer comme une référence dans le domaine des technologies ceci dans le but de faciliter la vie en intégrant la technologie dans le quotidien des hommes.</p><p>Imaginez une maison dans laquelle vous n'avez pas besoin de payer de facture d'électricité ni d'eau. Une maison que vous commandez à distance et qui déclenche automatiquement des alarmes en cas d'intrusion, incendie ou d'autres incidents et vous renvoie les images en temps réel sur votre smartphone ou PC en appelant instantanément les services de secours compétents (sapeur pompiers, police, ambulance, etc.).</p>"
+            },
+            "information": {
+                "projects": "Projets livrés",
+                "clients": "Clients satisfaits",
+                "partners": "Partenaires",
+                "awards": "Récompenses"
+            }
+        },
+        "services": {
+            "title": "Nos Services",
+            "subtitle": "DOMOTECS possède des références de premier plan et de grande expertise qui permet de proposer des méthodes éprouvées dans les domaines qui suivent :",
+            "content": [
+                {
+                    "icon": "fas fa-home",
+                    "name": "Domotique",
+                    "details": "La domotique est l'ensemble des techniques et technologies utilisées dans les bâtiments dans le but de centraliser la gestion des différents systèmes d'un bâtiment. La domotique vise à apporter des solutions techniques pour répondre aux besoins de confort.",
+                    "link": "home-automation",
+                    "modal": "services.fr.home-automation"
+                },
+                {
+                    "icon": "fas fa-shield-alt",
+                    "name": "Sécurité électronique",
+                    "details": "Dans le but d'assurer la sécurité des personnes et des biens dans vos entreprises et maisons, DOMOTECS vous propose des solutions dimensionnées pour répondre exactement à votre besoin.",
+                    "link": "electronic-security",
+                    "modal": "services.fr.electronic-security"
+                },
+                {
+                    "icon": "fas fa-fire",
+                    "name": "Protection incendie",
+                    "details": "DOMOTECS propose des solutions de Sécurité Incendie afin de réduire les risques et/ou limiter les dégâts en cas d'incendie dans nos locaux.",
+                    "link": "fire-protection",
+                    "modal": "services.fr.fire-protection"
+                },
+                {
+                    "icon": "fas fa-laptop-code",
+                    "name": "Ingénierie informatique",
+                    "details": "L'information est aujourd'hui le coeur de nos entreprises. Alors il devient urgent de savoir comment gérer ses informations.",
+                    "link": "computer-science",
+                    "modal": "services.fr.computer-science"
+                },
+                {
+                    "icon": "fas fa-bolt",
+                    "name": "Installation électrique",
+                    "details": "Une installation électrique est un ensemble cohérent de circuits électriques, d'appareillages électriques. Elle peut se situer dans un bâtiment ou un ensemble de bâtiments à usage d'habitation, industriel, commercial, ou de bureaux.",
+                    "link": "electric-installation",
+                    "modal": "services.fr.electric-installation"
+                },
+                {
+                    "icon": "fas fa-sun",
+                    "name": "Energie solaire",
+                    "details": "DOMOTECS propose plusieurs solutions pour l'exploitation de l'énergie solaire.",
+                    "link": "solar-energy",
+                    "modal": "services.fr.solar-energy"
+                }
+            ]
+        },
+        "contact": {
+            "coordinates": "Nos coordonnées",
+            "message": {
+                "title": "Laissez-nous un message",
+                "form": {
+                    "name": "Votre nom complet",
+                    "email": "Votre adresse mail",
+                    "object": "Objet",
+                    "message": "Votre message",
+                    "submit": "Envoyer"
+                }
+            }
+        }
+    }
+}
