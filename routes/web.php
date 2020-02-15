@@ -11,8 +11,10 @@
 |
 */
 
+use App\Contact;
 use App\Mail\ContactShipped;
 use App\Mail\Newsletter;
+use App\Subscriber;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
@@ -71,38 +73,28 @@ Route::post('/contact', function (Request $request) {
     foreach ($validatedInput as $key => $value) {
         $validatedInput[$key] = htmlspecialchars($value);
     }
+    Contact::create($validatedInput);
     Mail::to('jcalvin6@gmail.com')->send(new ContactShipped($validatedInput));
     Session::flash('sent_mail', 'Votre message a bel et bien été envoyé !');
     return back();
 });
 
 Route::post('/newsletter', function (Request $request) {
-    $jsonString = file_get_contents(base_path('newsletter.json'));
-    $newsletterFile = json_decode($jsonString, true);
-
     $validatedInput = $request->validate([
-        'email' => 'required:email'
+        'email' => 'required:email|unique:subscribers'
     ]);
+
     foreach ($validatedInput as $key => $value) {
         $validatedInput[$key] = htmlspecialchars($value);
     }
 
-    $check = false;
-    foreach ($newsletterFile as $value) {
-        $email = $validatedInput['email'];
-        if ($value === $email) {
-            $check = true;
-        }
-    }
-    if (!$check) {
-        $newsletterFile[] = $validatedInput['email'];
-        $newJsonString = json_encode($newsletterFile);
-        file_put_contents(base_path('newsletter.json'), $newJsonString);
+    $subscriber = Subscriber::create(['email' => $validatedInput['email']]);
 
+    if ($subscriber) {
         Mail::to('jcalvin6@gmail.com')->send(new Newsletter($validatedInput));
-        Session::flash('newsletter_success', 'You successfully subscribed to our newsletter !');
+        Session::flash('subscription_success', 'You successfully subscribed to our newsletter !');
     } else {
-        Session::flash('newsletter_failure', 'Subscription failed !');
+        Session::flash('subscription_failure', 'Subscription failed !');
     }
 
     return back();
